@@ -11,8 +11,8 @@
     text-transform: uppercase;
 }
 
-.app__header-img img{
-    width: 80%;
+.app__header_img img{
+    width: 10%;
 }
 
 @media screen and (min-width: 2000px) {
