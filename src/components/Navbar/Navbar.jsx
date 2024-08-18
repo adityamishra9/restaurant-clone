@@ -8,9 +8,11 @@ const Navbar = () => {
   const [toggleMenu, setTogglemenu] = useState(false);
   return (
     <nav className="app__navbar">
+
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app logo" />
       </div>
+
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <a href="#home">Home</a>
@@ -28,6 +30,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      
       <div className="app__navbar-login">
         <a href="#login" className="p__opensans">
           Log In / Register
@@ -36,6 +39,7 @@ const Navbar = () => {
           Book Table
         </a>
       </div>
+
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => {setTogglemenu(true)}} />
         {toggleMenu &&(
