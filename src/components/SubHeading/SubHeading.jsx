@@ -3,16 +3,7 @@ import { images } from "../../constants";
 
 const SubHeading = ({ title }) => (
   <div style={{ marginBottom: "1rem" }}>
-    <p
-      className="p__comorant"
-      style={{
-        color: "white",
-        fontSize: "30px",
-        fontFamily: "var(--font-base)",
-      }}
-    >
-      {title}
-    </p>
+    <p className="p__comorant">{title}</p>
     <img src={images.spoon} alt="spoon" className="spoon__img" />
   </div>
 );
