@@ -22,7 +22,7 @@ const Gallery = () => {
     if (direction === "left") {
       current.scrollLeft -= 300;
     } else {
-      current.scrollRight += 300;
+      current.scrollLeft += 300;
     }
   };
   return (
