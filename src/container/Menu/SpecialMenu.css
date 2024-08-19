@@ -58,7 +58,7 @@
   }
 }
 @media screen and (max-width: 1150px) {
-  .app__speciaMenu-menu {
+  .app__specialMenu-menu {
     flex-direction: column;
     align-items: center;
     width: 100%;
