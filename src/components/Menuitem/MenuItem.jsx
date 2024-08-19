@@ -14,7 +14,7 @@ const MenuItem = ({ title, price, tags }) => (
       <div className="app__menuItem-dash" />
 
       <div className="app__menuItem-price">
-        <p className="p__cormorant" style={{ color: "#DCCA87" }}>
+        <p className="p__cormorant">
           {price}
         </p>
       </div>
