@@ -1,13 +1,13 @@
-.app__speciaMenu {
+.app__specialMenu {
   flex-direction: column;
   background: var(--color-black);
 }
 
-.app__speciaMenu-title {
+.app__specialMenu-title {
   margin-bottom: 2rem;
   text-align: center;
 }
-.app__speciaMenu-menu {
+.app__specialMenu-menu {
   width: 100%;
 
   margin: 2rem 0;
@@ -26,8 +26,8 @@
   color: var(--color-white);
 }
 
-.app__speciaMenu-menu_wine,
-.app__speciaMenu-menu_cocktails {
+.app__specialMenu-menu_wine,
+.app__specialMenu-menu_cocktails {
   flex: 1;
   width: 100%;
   flex-direction: column;
